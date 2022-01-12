@@ -43,8 +43,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/slothmast3r/nft-component)
-- Live Site URL: [Add live site URL here](https://slothmast3r.github.io/nft-component/)
+- Solution URL: [HERE](https://github.com/slothmast3r/nft-component)
+- Live Site URL: [HERE](https://slothmast3r.github.io/nft-component/)
 
 ## My process
 
