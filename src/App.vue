@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <div class="card">
       <div class="card-wrapper">
         <div class="card-top">
@@ -107,7 +107,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgb(0, 255, 247, 0.4);
+    background-color: rgba(0, 255, 247, 0.4);
     width: 100%;
     height: calc(100% - 5px);
     opacity: 0;
