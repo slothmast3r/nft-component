@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app">
     <div class="card">
       <div class="card-wrapper">
         <div class="card-top">
@@ -52,7 +52,7 @@ $soft_blue: hsl(215, 51%, 70%);
 $cyan: hsl(178, 100%, 50%);
 $dark_blue_bg: hsl(217, 54%, 11%);
 $dark_blue_card: hsl(216, 50%, 16%);
-#app {
+.app {
   font-family: Outfit, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
