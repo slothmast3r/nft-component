@@ -3,7 +3,13 @@
     <div class="card">
       <div class="card-wrapper">
         <div class="card-top">
+          <div style="position: relative">
       <img class="image etherum" :src="require('/src/assets/images/image-equilibrium.jpg')">
+
+          <div class="overlay">
+            <img :src="require('/src/assets/images/icon-view.svg')">
+          </div>
+          </div>
       <div class="card-title">
       Equilibrium #3429
       </div>
@@ -97,12 +103,44 @@ body{
     width: 260px;
   }
 }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 255, 247, 0.4);
+    width: 100%;
+    height: calc(100% - 5px);
+    opacity: 0;
+    transition: all 300ms ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    img{
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .overlay:hover,
+  .overlay:active {
+    opacity: 1;
+    cursor: pointer;
+  }
   .card-title{
     color: white;
     margin: 20px 0;
     font-weight: 600;
     font-size: 20px;
-  }.card-subtitle{
+    transition: all 300ms ease-out;
+  }
+
+  .card-title:active,
+  .card-title:hover{
+    color: $cyan;
+    cursor: pointer;
+  }
+  .card-subtitle{
     margin: 20px 0;
     font-weight: 300;
   }

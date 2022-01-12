@@ -1,3 +1,4 @@
+just wanted to see how submission work :D
 # Frontend Mentor - NFT preview card component
 
 ![Design preview for the NFT preview card component coding challenge](src/assets/design/desktop-preview.jpg)
